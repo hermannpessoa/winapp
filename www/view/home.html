@@ -1,0 +1,89 @@
+<!-- <div class="coverPreto"></div> -->
+<div class="bannerTras"></div>
+
+<header>
+  <div class="barrinhaTopo"></div>
+   <div class="container">
+        <div class="col-xs-12 logo col-md-3">
+            <h1><a href="">Win Benefícios</a></h1>
+        </div>
+        <div class="col-xs-12 col-sm-12 login buttons text-right">
+             <div class="loginBox">
+                <div href="#"><input type="checkbox" id="checkLogin"><label for="checkLogin" class="btn btn-default btn-lg">Login</label>
+                    <div class="modalLogin pulse animated text-left">
+                        <div class="first-step">
+                            <p class="">Acesso à plataforma Win Benefícios</p> 
+                            <p>Faça seu login e aproveite diversas promoções e descontos</p>
+							<form method="POST">
+								<span class="inputMail">
+                                    <input type="email" name="email" placeholder="Digite aqui seu e-mail">
+                                </span>
+								<span class="inputPassword">
+                                    <input type="password" name="senha" placeholder="Digite aqui sua senha">
+                                </span>
+
+								<input type="submit" class="submitLogin"  value="Entrar">
+                                <!-- <a href="#youwin" class="submitLogin">Entrar</a> -->
+							</form>
+                           <!--  <small><a class="recSenha">Esqueceu a senha? Clique Aqui</a></small> -->
+                        </div>
+                         <div class="second-step">
+                            <p class="">Recuperar senha</p> 
+                            <p>Preencha seu e-mail para recuperar a senha</p>
+							<form action="" method="POST">
+								<span class="inputMail">
+                                    <input name="email" type="text" placeholder="Digite aqui seu e-mail">
+                                </span>
+								<!-- <span class="inputPassword"><input type="text" placeholder="Digite aqui sua senha"></span> -->
+
+								<input type="submit" value="Recuperar senha">
+							</form>
+                            <small><a class="recLogin">Lembrou sua senha? Clique Aqui</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="heading homeHeadings text-center">
+  <h2>
+    Mas como funciona?
+  </h2>
+</div>
+<div id="homeGallery" class="owl-carousel owl-theme">
+ 
+    <div class="item">
+        <img src="images/thumb1.png" alt="">
+        <p>A Win agrega, numa mesma base, os funcionários de várias empresas.</p>
+    </div>
+    <div class="item">
+        <img src="images/thumb2.png" alt="">
+        <p>Assim, conseguimos negociar os melhores descontos junto a vários parceiros.</p>
+    </div>
+    <div class="item">
+        <img src="images/thumb3.png" alt="">
+        <p>Se a sua empresa faz parte da Win, você já tem direito a todos esses descontos!</p>
+    </div>
+ 
+</div>
+<script>
+$("#homeGallery").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      autoplay:true,
+        autoplayTimeout:4500,
+         loop:true,
+      
+ 
+      // "singleItem:true" is a shortcut for:
+      items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+ 
+  });
+</script>

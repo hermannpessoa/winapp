@@ -1,0 +1,23 @@
+body { background: #f1f1f1; font-family: "Open Sans"; }
+
+.wrapper { width: 940px; height: auto; margin: auto; background: #FFFFFF; }
+.wrapper .topo { width: 100%; height: auto; padding-top: 20px; margin-bottom: 20px; }
+.wrapper .topo span { display: block; text-indent: -999px; width: 230px; height: 44px; background: url("../images/logo_win.png") center no-repeat; background-size: contain; margin-left: 20px; }
+.wrapper .barra { width: 100%; box-sizing: border-box; background: #2fbec2; padding-left: 10px; height: auto; line-height: 40px; color: #FFF; font-family: inherit; font-size: 18px; }
+.wrapper .conteudo { height: auto; margin: auto; box-sizing: border-box; padding: 10px; color: #555; }
+.wrapper .conteudo p { font-family: inherit; font-size: 13px; margin-top: 20px; margin-bottom: 30px; }
+.wrapper .conteudo form { width: 100%; display: block; }
+.wrapper .conteudo form input { width: 429px; border: 1px solid #ccc; color: #555; background: #FFF; float: left; margin-right: 20px; margin-bottom: 40px; height: 35px; padding-left: 10px; outline: none; }
+.wrapper .conteudo form input#cpf { float: right; margin-right: 0; margin-left: 20px; }
+.wrapper .conteudo form label { color: #555; font-size: 16px; float: left; font-weight: 400; margin-top: 5px; }
+.wrapper .conteudo form button { width: 100%; height: 35px; background: #f16b1e; color: #FFF; cursor: pointer; font-size: 14px; border-radius: 5px; outline: none; box-shadow: none; border: none; border-bottom: 3px solid #dc5a0e; }
+.wrapper .conteudo form button:hover { background: #eb5f0f; }
+.wrapper .conteudo .deuBom { display: none; position: relative; width: 70%; margin: auto; border: 1px solid #009900; border-radius: 5px; margin-bottom: 30px; }
+.wrapper .conteudo .deuBom .header { width: 100%; background: #009900; height: auto; line-height: 30px; color: #FFF; font-size: 14px; box-sizing: border-box; padding-left: 10px; position: relative; }
+.wrapper .conteudo .deuBom .header .fa-times-circle { position: absolute; right: 20px; top: 25%; cursor: pointer; }
+.wrapper .conteudo .deuBom .dados { width: 90%; height: auto; margin: auto; color: #555; }
+.wrapper .conteudo .deuBom .dados p { margin-bottom: 20px; }
+.wrapper .conteudo .deuRuim { display: none; position: relative; border-radius: 5px; background: #d20000; color: #FFFFFF; width: 70%; margin: auto; text-align: center; font-size: 14px; line-height: 40px; height: auto; margin-bottom: 20px; }
+.wrapper .conteudo .deuRuim .fa-times-circle { position: absolute; right: 20px; top: 35%; cursor: pointer; }
+.wrapper .conteudo .deuRuim i { margin-right: 5px; color: #FFF; }
+.wrapper .footer { background: #2fbec2; width: 100%; color: #FFF; line-height: 40px; font-size: 12px; text-align: center; height: auto; box-sizing: border-box; }

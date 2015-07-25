@@ -1,0 +1,48 @@
+{
+    "cordova-plugin-whitelist": {
+        "source": {
+            "type": "registry",
+            "id": "cordova-plugin-whitelist@1"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "org.apache.cordova.device": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.device"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "io.litehelpers.cordova.sqlite": {
+        "source": {
+            "type": "registry",
+            "id": "io.litehelpers.cordova.sqlite"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "com.pushbots.push": {
+        "source": {
+            "type": "registry",
+            "id": "com.pushbots.push"
+        },
+        "is_top_level": true,
+        "variables": {}
+    },
+    "android.support.v4": {
+        "source": {
+            "type": "local",
+            "path": "/Users/performaweb/.plugman/cache/android.support.v4/21.0.1/package"
+        }
+    },
+    "org.apache.cordova.network-information": {
+        "source": {
+            "type": "registry",
+            "id": "org.apache.cordova.network-information"
+        },
+        "is_top_level": true,
+        "variables": {}
+    }
+}

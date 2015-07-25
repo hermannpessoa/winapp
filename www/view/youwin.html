@@ -1,0 +1,40 @@
+<div class="barrinhaTopo"></div>
+<div class="container">
+
+    <div class="loggedHeader">
+        <div class="loggedMenu">
+            <input type="checkbox" id="logoutMenu">
+            <label for="logoutMenu" class="fa fa-ellipsis-v"></label>
+            <div class="listMenu animated fadeInDown">
+                <div class="contListMenu arrow_box">
+                    <ul>
+                        <li><a href="" class="logout"><i class="fa fa-sign-out"></i>Sair</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="loggedContent">
+        <div class="trophy">
+            <img width="100%" src="images/youwin.png">
+        </div>
+        <div class="heading homeHeadings text-center" style="padding-top:0 !important;">
+          <h2>
+            Seja bem Vindo!
+          </h2>
+        </div>
+        <div class="sectionContent">
+            <h1 class="center">{{nome}}</h1>
+            <p class="center">Este são seus dados de acesso aos melhores benefícios! </p>
+            <p>CPF: <strong>{{cpf}}</strong></p>
+            <p>E-mail: <strong>{{email}}</strong></p>
+            <p>Empresa: <strong>{{empresa}}</strong></p>
+            <p class="status sts{{statusId}}">{{status}}</p>
+        </div>
+        <div class="dataContent">
+        	<div class="containerLogo" style="border-top: 4px solid {{cor}}; text-align:center;">
+				<img style="max-width: 60%; max-height: 80px;" src="data:image/jpg;base64,{{logoEmpresa}}"/>
+        	</div>
+        </div>
+    </div>
+</div>
