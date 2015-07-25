@@ -63,9 +63,9 @@ function expirationDate() {
 }
 
 function onDeviceReady() {
-    // checkConnection();
+    checkConnection();
     logged = localStorage.getItem('logged');
-    conectado = 1;
+    // conectado = 1;
     if (conectado == 0) {
 
         now = new Date()
